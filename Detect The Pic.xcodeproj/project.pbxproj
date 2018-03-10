@@ -12,6 +12,8 @@
 		7AEBD82520537A3200727215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBD82320537A3200727215 /* Main.storyboard */; };
 		7AEBD82720537A3200727215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBD82620537A3200727215 /* Assets.xcassets */; };
 		7AEBD82A20537A3200727215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBD82820537A3200727215 /* LaunchScreen.storyboard */; };
+		7AEBD83220537BBA00727215 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7AEBD83120537BBA00727215 /* Resnet50.mlmodel */; };
+		7AEBD83420538A3300727215 /* CoreMLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEBD83320538A3300727215 /* CoreMLTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7AEBD82620537A3200727215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AEBD82920537A3200727215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AEBD82B20537A3200727215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AEBD83120537BBA00727215 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		7AEBD83320538A3300727215 /* CoreMLTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		7AEBD81E20537A3200727215 /* Detect The Pic */ = {
 			isa = PBXGroup;
 			children = (
+				7AEBD83120537BBA00727215 /* Resnet50.mlmodel */,
 				7AEBD81F20537A3200727215 /* AppDelegate.swift */,
 				7AEBD82120537A3200727215 /* ViewController.swift */,
+				7AEBD83320538A3300727215 /* CoreMLTableViewCell.swift */,
 				7AEBD82320537A3200727215 /* Main.storyboard */,
 				7AEBD82620537A3200727215 /* Assets.xcassets */,
 				7AEBD82820537A3200727215 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AEBD82220537A3200727215 /* ViewController.swift in Sources */,
+				7AEBD83420538A3300727215 /* CoreMLTableViewCell.swift in Sources */,
+				7AEBD83220537BBA00727215 /* Resnet50.mlmodel in Sources */,
 				7AEBD82020537A3200727215 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
